@@ -61,18 +61,18 @@ body {
 }
 
 .cta-btn {
-  background-image: linear-gradient(
-    to right,
-    var(--green),
-    var(--cyan)
-  );
+  background-color: hsl(200, 100%, 75%); 
   border: none;
   color: var(--white);
   padding: 0.6rem 1.8rem;
   border-radius: 2rem;
   cursor: pointer;
   font-weight: 600;
-  transition: opacity 0.3s ease;
+  transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+  background-color: hsl(200, 100%, 65%); 
 }
 
 .cta-btn:hover {
